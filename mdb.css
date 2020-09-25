@@ -10596,67 +10596,6 @@ body.scrollable {
     }
 }
 
-.carousel .carousel-control-prev-icon,
-.carousel .carousel-control-next-icon {
-    width: 20px;
-    height: 20px
-}
-
-.carousel .carousel-control-prev-icon {
-    background-image: url(../img/svg/arrow_left.svg)
-}
-
-.carousel .carousel-control-next-icon {
-    background-image: url(../img/svg/arrow_right.svg)
-}
-
-.carousel .carousel-indicators li {
-    width: .625rem;
-    height: .625rem;
-    cursor: pointer;
-    border-radius: 50%
-}
-
-.carousel-fade .carousel-item {
-    opacity: 0;
-    -webkit-transition-duration: .6s;
-    transition-duration: .6s;
-    -webkit-transition-property: opacity;
-    transition-property: opacity
-}
-
-.carousel-fade .carousel-item.active,
-.carousel-fade .carousel-item-next.carousel-item-left,
-.carousel-fade .carousel-item-prev.carousel-item-right {
-    opacity: 1
-}
-
-.carousel-fade .carousel-item-left.active,
-.carousel-fade .carousel-item-right.active {
-    opacity: 0
-}
-
-.carousel-fade .carousel-item-next,
-.carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item.active,
-.carousel-fade .carousel-item-left.active,
-.carousel-fade .carousel-item-prev.active {
-    -webkit-transform: translateX(0);
-    transform: translateX(0)
-}
-
-@supports (transform-style: preserve-3d) {
-
-    .carousel-fade .carousel-item-next,
-    .carousel-fade .carousel-item-prev,
-    .carousel-fade .carousel-item.active,
-    .carousel-fade .carousel-item-left.active,
-    .carousel-fade .carousel-item-prev.active {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-    }
-}
-
 .md-form {
     position: relative;
     margin-top: 1.5rem;

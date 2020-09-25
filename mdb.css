@@ -6253,12 +6253,12 @@ a.waves-light {
 
 .btn-primary {
     color: #fff;
-    background-color: #4285f4 !important
+    background-color: #F27305 !important
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #5a95f5
+    background-color: #D26506
 }
 
 .btn-primary:focus,
